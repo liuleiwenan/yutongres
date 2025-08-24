@@ -1,0 +1,462 @@
+ /*** 详情页 ***/
+
+.content-author {
+	border-bottom: 1px solid #eee;
+}
+
+.content-author h1 {
+	height: auto;
+	line-height: 2.2em;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.content-author .simple-info {
+	height: 3em;
+	line-height: 2em;
+	font-size: 12px;
+}
+
+.content-view {
+	overflow: hidden;
+}
+
+/*基础标签还原（也可根据需求自定义）*/
+.content-view h1,
+.content-view h2,
+.content-view h3,
+.content-view h4,
+.content-view h5 .content-view h6,
+.content-view strong {
+	font-weight: bold;
+}
+
+.content-view h1 {
+	font-size: 2em;
+	margin-block-start: 0.67em;
+	margin-block-end: 0.67em;
+}
+
+.content-view h2 {
+	font-size: 1.5em;
+	margin-block-start: 0.83em;
+	margin-block-end: 0.83em;
+}
+
+.content-view h3 {
+	font-size: 1.17em;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	border-left: 5px solid #0061b2;
+    padding-left: 5px; 
+    background: linear-gradient(to right, #f3f3f3, rgba(0, 0, 0, 0));
+	padding-bottom: 5px;
+    padding-top: 5px; 
+}
+
+.content-view h4 {
+	margin-block-start: 1.33em;
+	margin-block-end: 1.33em;
+	line-height: 1.8em;
+}
+
+.content-view h5 {
+	font-size: 0.83em;
+	margin-block-start: 1.67em;
+	margin-block-end: 1.67em;
+	border-left: 0;
+	text-indent: 0;
+}
+
+.content-view h6 {
+	font-size: 0.67em;
+	margin-block-start: 2.33em;
+	margin-block-end: 2.33em;
+}
+
+.content-view em {
+	font-style: italic;
+}
+
+.content-view del {
+	text-decoration: line-through;
+}
+
+.content-view blockquote {
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 40px;
+	margin-inline-end: 40px;
+}
+
+/*基础标签还原（也可根据需求自定义）*/
+
+.content-view p {
+	font-size: 16px;
+	line-height: 1.8em;
+	margin-bottom: 10px;
+	color: #000000;
+	font-weight: 300; 
+}
+
+.content-view p img {
+	max-width: 100%;
+}
+
+.content-view strong {
+	font-weight: 600;
+}
+
+.content-view blockquote {
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 40px;
+	margin-inline-end: 40px;
+}
+
+.content-view em {
+	font-style: italic;
+}
+
+.content-view hr {
+	opacity: 0.3;
+}
+
+.content-view .post-password-form {
+	padding: 10px 0;
+}
+
+.content-view .post-password-form p,
+.content-view .post-password-form p label {
+	display: flex;
+	align-items: center;
+}
+
+.content-view .post-password-form input[type=password] {
+	height: 36px;
+	line-height: 36px;
+	border: 1px solid #CCCCCC;
+	border-radius: 2px 0 0 2px;
+	width: 200px;
+}
+
+.content-view .post-password-form input[type=submit] {
+	height: 36px;
+	line-height: 36px;
+	border: 1px solid #0061b2;
+	background: #0061b2;
+	color: #FFFFFF;
+	margin: 0;
+	padding: 0 32px;
+	border-radius: 0 2px 2px 0;
+}
+
+.content-tag {
+	font-weight: 300;
+}
+
+.content-copy {
+	padding: 20px;
+	background: #FAFAFA;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+}
+
+.content-copy p {
+	font-size: 12px;
+	line-height: 2.5em;
+	color: #666;
+	font-weight: 300;
+}
+
+.content-nav {
+	padding: 20px 4px;
+}
+
+.content-opt-wap {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 120px;
+}
+
+.content-opt-wap div {
+	width: 140px;
+	text-align: center;
+}
+
+.content-opt-wap div img {
+	height: 60px;
+	width: 60px;
+	margin-bottom: 20px;
+}
+
+.content-opt-wap div p {
+	font-size: 12px;
+	font-weight: 200;
+}
+
+.content-opt-wap div p cite {
+	font-weight: 400;
+	padding: 0 4px;
+}
+
+.content-block h6 {
+	height: 2em;
+	line-height: 2em;
+	font-size: 12px;
+}
+
+.content-block h6 a {
+	font-weight: 400;
+}
+
+.content-block p {
+	font-size: 12px;
+	height: 2.4em;
+	padding-right: 30px;
+	line-height: 2.4em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.content-block p a {
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.content-comment-item {
+	border-bottom: 1px solid #EEE;
+	padding: 20px 0;
+}
+
+.content-comment-item .simple-info {
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
+.content-comment-item-depth-1 {
+
+}
+
+.content-comment-item-depth-2 {
+	margin-left: 40px;
+	border-bottom: none;
+	padding-bottom: 0;
+}
+
+.content-comment-item-depth-3 {
+	margin-left: 80px;
+	border-bottom: none;
+	padding-bottom: 0;
+}
+
+.content-comment-item-depth-4 {
+	margin-left: 120px;
+	border-bottom: none;
+	padding-bottom: 0;
+}
+
+.content-comment-item-depth-5 {
+	margin-left: 160px;
+	border-bottom: none;
+	padding-bottom: 0;
+}
+
+
+.content-comment-info {
+	padding-left: 36px;
+}
+
+.content-comment-text {
+	font-size: 14px;
+	font-weight: 200;
+	color: #333;
+	line-height: 1.4em;
+}
+
+/*** 详情页 End ***/
+
+/*** 评论框 ***/
+.content-post p {
+	font-size: 16px;
+	color: #333;
+}
+
+.comment-respond {
+	font-size: 16px;
+}
+
+.comment-login-tip {
+	padding: 20px 0;
+}
+
+.comment-login-tip a {
+	font-weight: 200;
+    font-size: 14px;
+    padding: 5px 3px;
+    border-radius: 2px;
+    background: #0061b2;
+    color: #FFF;
+    margin: 0 5px;
+    align-items: center;
+    display: flex;
+}
+
+.comment-reply-title {
+	height: 1.1em;
+	line-height: 1.1em;
+	border-left: 4px solid #0061b2;
+	text-indent: 10px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #2A2A2A;
+	margin-bottom: 10px;
+}
+
+.comment-notes {
+	line-height: 3em;
+	font-size: 16px;
+	height: 3em;
+}
+
+.required {
+	color: #0061b2;
+}
+
+.logged-in-as {
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+.logged-in-as a {
+	color: #0061b2;
+	margin-right: 10px;
+}
+
+.comment-form-box {
+	margin-bottom: 20px;
+	font-size: 15px;
+}
+
+.comment-login-textarea textarea {
+	width: 100%;
+	padding: 10px;
+	min-height: 120px;
+	border: 1px solid #CCC;
+	margin: 10px 0;
+}
+
+.comment-form-login {
+	border: 1px solid #DDD;
+}
+
+.comment-form-comment label {
+	display: none;
+}
+
+.comment-form-comment textarea {
+	width: 100%;
+	padding: 10px;
+	min-height: 120px;
+	border: 1px solid #CCC;
+}
+
+.comment-form-login .comment-form-comment textarea {
+	border: none;
+}
+
+.comment-form-box ul {
+	display: flex;
+	padding: 10px 0;
+}
+
+.comment-form-box li {
+	line-height: 3em;
+	height: 3em;
+	display: inline-flex;
+	border: 1px solid #CCC;
+	width: 33%;
+	overflow: hidden;
+	margin-right: 2%;
+}
+
+.comment-form-box li.comment-form-url {
+	margin-right: 0;
+}
+
+.comment-form-box li label {
+	line-height: 3.5em;
+	height: 3.5em;
+	flex: 0 0 90px;
+	overflow: hidden;
+	text-indent: 10px;
+	font-size: 12px;
+}
+
+.comment-form-box li input {
+	flex: 1;
+	height: 2.2em;
+	line-height: 2.2em;
+	font-size: 15px;
+	width: 100px;
+}
+
+.comment-form-cookies-consent {
+	font-size: 16px;
+	line-height: 3em;
+	height: 3em;
+	padding: 0 15px;
+}
+
+.comment-form-user {
+	height: 50px;
+	line-height: 50px;
+	margin-bottom: -50px;
+	padding: 0 20px;
+	font-size: 12px;
+}
+
+.comment-form-user a {
+	color: #0061b2;
+	margin: 0 8px;
+	font-weight: 600;
+	font-size: 15px;
+}
+
+.comment-form-user a:last-child {
+	font-weight: 200;
+	font-size: 12px;
+	padding: 5px 10px;
+	border-radius: 2px;
+	background: #0061b2;
+	color: #FFF;
+}
+
+.form-submit {
+	display: grid;
+	height: 50px;
+	justify-items: end;
+}
+
+.comment-form-login .form-submit {
+	background: #F3F3F3;
+}
+
+.form-submit input {
+	color: #FFF;
+	background: #0061b2;
+	width: 120px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+
+.comment-form-login .form-submit input {
+	margin: 5px;
+}
+
+/*** 评论框 End ***/

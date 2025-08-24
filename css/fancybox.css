@@ -1,0 +1,23 @@
+/* 1. 把背景改成半透明品牌色 */
+.fancybox-container {
+    background: rgba(0, 0, 0, .75);
+}
+
+/* 2. 圆角 + 阴影 */
+.fancybox-slide img {
+    border-radius: 8px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, .5);
+}
+
+/* 3. 隐藏默认标题，改用自定义浮动标题 */
+.fancybox-caption {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, .6);
+    color: #fff;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+}

@@ -1,0 +1,21 @@
+/*
+Theme Name: 摇啊摇主题 
+Author: the YaoAYao
+Author URI: https://www.yutongres.cn/
+Description: 博客
+Version: 1.5
+Requires PHP: 7.2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: 免费, 博客, 资讯
+*/
+
+@import 'css/base.css';
+@import 'css/grid.css';
+@import 'css/style.css';
+@import 'css/append.css';
+@import 'css/latest-CatPosts.css';  
+@import 'css/contact-bar.css';   
+@import 'css/login-reg.css';    
+@import 'css/mathjax.css';   
+@import 'css/content-view.css'; 
